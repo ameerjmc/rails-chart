@@ -12,6 +12,7 @@ include the gem in your Gemfile:
 
 
 And then execute:
+
 <body>
 
    $ bundle install
