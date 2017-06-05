@@ -2,8 +2,6 @@
 
 ### Create beautiful Javascript charts with one line of Ruby
 
-### Installation
-
 include the gem in your Gemfile:
 
 gem 'chartkick'
