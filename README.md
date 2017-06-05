@@ -35,10 +35,7 @@ Steps:
 	
 </body>
 
-pie_chart:
-
-https://github.com/ameerjmc/rails-chart/blob/master/public/pie_chart.png
-
+![Alt text](https://github.com/ameerjmc/rails-chart/blob/master/public/pie_chart.png "pie_chart")
 
 
 	
