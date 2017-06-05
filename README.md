@@ -12,13 +12,11 @@ $ bundle install
 
 Steps:
 
-1.rake db:create
+1.rails g model student
 
-2.rails g model student
+2.rake db:migrate
 
-3.rake db:migrate
-
-4.rails g controller students index
+3.rails g controller students index
 
 
 ## index.html.erb
