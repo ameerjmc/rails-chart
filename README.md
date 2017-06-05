@@ -1,24 +1,42 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Create beautiful Javascript charts with one line of Ruby
 
-Things you may want to cover:
+### Installation
 
-* Ruby version
+include the gem in your Gemfile:
 
-* System dependencies
+gem 'chartkick'
 
-* Configuration
+And then execute:
 
-* Database creation
+$ bundle install
 
-* Database initialization
+Steps:
 
-* How to run the test suite
+1.rake db:create
+2.rails g model student
+3.rake db:migrate
+4.rails g controller students index
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+index.html.erb
 
-* ...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<%= pie_chart Student.group(:course).count %>
+	<%= column_chart  Student.group(:course).count %>
+	
+</body>
+</html>
+
+
+
+
+
