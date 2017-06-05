@@ -23,8 +23,7 @@ Steps:
 4.rails g controller students index
 
 
-index.html.erb
-
+## index.html.erb
 
    <%= pie_chart Student.group(:course).count %>
    
