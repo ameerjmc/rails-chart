@@ -35,9 +35,13 @@ Steps:
 	
 </body>
 
-### pie_chart
+### pie-chart
 
 ![Alt text](https://github.com/ameerjmc/rails-chart/blob/master/public/pie_chart.png "pie_chart")
+
+### column-chart
+
+![Alt text](https://github.com/ameerjmc/rails-chart/blob/master/public/column_chart.png "column_chart")
 
 
 	
