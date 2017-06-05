@@ -24,11 +24,28 @@ Steps:
 
 
 ## index.html.erb
+ <!DOCTYPE html>
+ 
+<html lang="en">
 
-   <%= pie_chart Student.group(:course).count %>
-   
-   
-   <%= column_chart  Student.group(:course).count %>
+<head>
+
+	<meta charset="UTF-8">
+	
+	<title>Document</title>
+	
+</head>
+
+<body>
+
+	<%= pie_chart Student.group(:course).count %>
+	
+	<%= column_chart  Student.group(:course).count %>
+	
+	
+</body>
+
+</html>
 	
 
 
