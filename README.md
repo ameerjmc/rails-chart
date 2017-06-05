@@ -35,6 +35,8 @@ Steps:
 	
 </body>
 
+### pie_chart
+
 ![Alt text](https://github.com/ameerjmc/rails-chart/blob/master/public/pie_chart.png "pie_chart")
 
 
