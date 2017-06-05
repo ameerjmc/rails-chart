@@ -4,7 +4,12 @@
 
 include the gem in your Gemfile:
 
-gem 'chartkick'
+<body>
+
+    gem 'chartkick'
+    
+</body>
+
 
 And then execute:
 
