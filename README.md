@@ -1,6 +1,6 @@
 # README
 
-### Create beautiful Javascript charts with one line of Ruby
+### Create beautiful Javascript charts with one line of Ruby on Rails
 
 include the gem in your Gemfile:
 
